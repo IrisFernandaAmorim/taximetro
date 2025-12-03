@@ -40,7 +40,7 @@ def save_rates(rates):
 
 
 # --------------------------------------------------------------------
-# FARE CALCULATION & HISTORY SAVING
+# FARE CALCULATION AND HISTORY SAVING
 # --------------------------------------------------------------------
 
 def calculate_fare(seconds_stopped, seconds_moving, rates):
