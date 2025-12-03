@@ -10,6 +10,7 @@ def calculate_fare(seconds_stopped, seconds_moving):
     print(f"Este es el total: {fare}")
     return fare
 
+
 def taximeter():
     """
     Función para manejar y mostrar las opciones del taxímetro.
