@@ -83,9 +83,13 @@ State changed to 'moving'.
 Current fare: €0.25
 
 > finish
+ 
 --- Trip Summary ---
+
 Stopped time : 3.2 seconds
+
 Moving time  : 12.5 seconds
+
 Total fare   : €0.73
 
 ---
@@ -93,8 +97,11 @@ Total fare   : €0.73
 ## 🧪 Mejoras futuras
 
 Interfaz gráfica (Tkinter o Qt)
+
 Base de datos real (SQLite)
+
 Sistema de GPS simulado
+
 Versión móvil o web
 
 ## 🤝 Contribuciones
