@@ -16,15 +16,17 @@ Ambos sistemas permiten calcular tarifas en función del tiempo parado o en movi
 PROYECTO1_IRIS_AMORIM/
 │
 ├── CLI_taximeter/
-│ ├── history.txt
-│ ├── main.py
-│ ├── rates.json
+│   ├── main.py             # Versión en consola (CLI)
+│   ├── rates.json          # Tarifas configurables
+│   ├── history.txt         # Historial CLI
+│   └── taximeter.log       # Log del sistema en CLI
 │
 ├── GUI_taximeter/
-│ ├── app.py                  ← Aplicación Streamlit (GUI)
-│ ├── history.txt
-│ ├── rates.json
-│ ├── requirements.txt
+│   ├── app.py              # Aplicación Streamlit (GUI)
+│   ├── rates.json          # Tarifas GUI
+│   ├── history.txt         # Historial GUI
+│   ├── requirements.txt    # Dependencias para la GUI
+│   └── taximeter_gui.log   # Log del sistema en GUI
 │
 ├── .gitignore
 └── README.md
@@ -37,9 +39,9 @@ PROYECTO1_IRIS_AMORIM/
 
 - Modernizar el funcionamiento tradicional de un taxímetro.  
 - Proporcionar un sistema **preciso, simple y ampliable**.  
-- Practicar programación estructurada (CLI) y programación reactiva (Streamlit).  
 - Registrar historiales de viajes.  
 - Permitir tarifas configurables por el usuario.
+- Añadir trazabilidad mediante logging.
 
 
 ## 🧩 Funcionalidades Principales
@@ -68,17 +70,20 @@ La interfaz gráfica permite:
 - Ajustar tarifas desde la barra lateral.  
 - Guardar viajes automáticamente en `history.txt`.  
 - Leer el historial desde la propia aplicación.  
+- Registrar eventos en taximeter_gui.log.
 
 
 ## 📦 Archivos importantes
 
-| Archivo | Ubicación | Descripción |
-|---------|-----------|-------------|
-| `main.py` | `/CLI_taximeter` | Implementación del taxímetro en terminal. |
-| `app.py` | `/GUI_taximeter` | Aplicación Streamlit con interfaz gráfica. |
-| `rates.json` | En cada módulo | Tarifas personalizadas de “parado” y “movimiento”. |
-| `history.txt` | En cada módulo | Registro de viajes realizados. |
-| `requirements.txt` | `/GUI_taximeter` | Dependencias necesarias para ejecutar la GUI. |
+| Archivo             | Ubicación        | Descripción                                        |
+| ------------------- | ---------------- | -------------------------------------------------- |
+| `main.py`           | `/CLI_taximeter` | Implementación del taxímetro en terminal.          |
+| `app.py`            | `/GUI_taximeter` | Aplicación Streamlit con interfaz gráfica.         |
+| `rates.json`        | En cada módulo   | Tarifas personalizadas de “parado” y “movimiento”. |
+| `history.txt`       | En cada módulo   | Registro de viajes realizados.                     |
+| `taximeter.log`     | `/CLI_taximeter` | Registro de logs de la versión CLI.                |
+| `taximeter_gui.log` | `/GUI_taximeter` | Registro de logs de la versión GUI.                |
+| `requirements.txt`  | `/GUI_taximeter` | Dependencias necesarias para ejecutar la GUI.      |
 
 
 ## 🧠 ¿Cómo funciona el cálculo del taxímetro?
