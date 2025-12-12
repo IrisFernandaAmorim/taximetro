@@ -1,0 +1,32 @@
+2025-12-12 10:56:34,061 | INFO | Loading rates from rates.json (GUI)
+2025-12-12 10:56:41,171 | INFO | GUI trip started
+2025-12-12 10:56:45,556 | INFO | GUI \u2192 state changed: stopped \u2192 moving
+2025-12-12 10:56:50,198 | INFO | GUI \u2192 state changed: moving \u2192 stopped
+2025-12-12 10:56:52,679 | INFO | GUI \u2192 state changed: stopped \u2192 moving
+2025-12-12 10:56:56,996 | INFO | GUI \u2192 state changed: moving \u2192 stopped
+2025-12-12 10:56:59,220 | INFO | GUI \u2192 state changed: stopped \u2192 moving
+2025-12-12 10:57:01,199 | INFO | User requested GUI fare refresh
+2025-12-12 10:57:04,052 | INFO | User requested GUI fare refresh
+2025-12-12 10:57:06,517 | INFO | User requested GUI fare refresh
+2025-12-12 10:57:09,790 | INFO | User requested GUI fare refresh
+2025-12-12 10:57:12,017 | INFO | User requested GUI fare refresh
+2025-12-12 10:57:13,082 | INFO | User requested GUI fare refresh
+2025-12-12 10:57:14,423 | INFO | User requested GUI fare refresh
+2025-12-12 10:57:15,531 | INFO | User requested GUI fare refresh
+2025-12-12 10:57:16,970 | INFO | User requested GUI fare refresh
+2025-12-12 10:57:18,309 | INFO | User requested GUI fare refresh
+2025-12-12 10:57:19,885 | INFO | User requested GUI fare refresh
+2025-12-12 10:57:23,039 | INFO | User requested GUI fare refresh
+2025-12-12 10:57:24,882 | INFO | User requested GUI fare refresh
+2025-12-12 10:57:25,640 | INFO | User requested GUI fare refresh
+2025-12-12 10:57:26,566 | INFO | User requested GUI fare refresh
+2025-12-12 10:57:27,360 | INFO | User requested GUI fare refresh
+2025-12-12 10:57:28,894 | INFO | GUI \u2192 state changed: moving \u2192 stopped
+2025-12-12 10:57:33,226 | INFO | User requested GUI fare refresh
+2025-12-12 10:57:33,822 | INFO | User requested GUI fare refresh
+2025-12-12 10:57:34,886 | INFO | User requested GUI fare refresh
+2025-12-12 10:57:35,679 | INFO | User requested GUI fare refresh
+2025-12-12 10:57:36,798 | INFO | GUI \u2192 state changed: stopped \u2192 moving
+2025-12-12 10:57:44,706 | INFO | GUI trip finishing \u2192 stopped=17.0s, moving=46.5s, fare=€3.60
+2025-12-12 10:57:44,722 | INFO | Saving GUI trip -> stopped=17.0s, moving=46.5s, fare=€3.60
+2025-12-12 10:57:53,816 | INFO | User opened GUI trip history

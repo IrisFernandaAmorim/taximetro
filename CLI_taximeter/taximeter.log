@@ -1,0 +1,48 @@
+2025-12-12 09:23:26,582 | INFO | Loading rates from rates.json
+2025-12-12 09:23:57,658 | INFO | User entered command: stat
+2025-12-12 09:23:57,659 | WARNING | Unknown command: stat
+2025-12-12 09:24:39,681 | INFO | User entered command: start
+2025-12-12 09:24:39,681 | INFO | Trip started.
+2025-12-12 09:24:54,640 | INFO | User entered command: move
+2025-12-12 09:24:54,641 | INFO | State changed from stopped to moving
+2025-12-12 09:25:08,961 | INFO | User entered command: stop
+2025-12-12 09:25:08,962 | INFO | State changed from moving to stopped
+2025-12-12 09:25:28,557 | INFO | User entered command: history
+2025-12-12 09:25:28,565 | INFO | Displaying trip history
+2025-12-12 09:25:46,193 | INFO | User entered command: move
+2025-12-12 09:25:46,194 | INFO | State changed from stopped to moving
+2025-12-12 09:25:50,860 | INFO | User entered command: rates
+2025-12-12 09:25:50,861 | INFO | Viewing or updating rates
+2025-12-12 09:26:02,859 | INFO | Saving updated rates into JSON file: {'stopped': 0.02, 'moving': 0.06}
+2025-12-12 09:26:40,346 | INFO | User entered command: partial
+2025-12-12 09:26:40,347 | WARNING | Unknown command: partial
+2025-12-12 09:26:48,033 | INFO | User entered command: show
+2025-12-12 09:26:48,033 | INFO | Showing partial fare: €5.61
+2025-12-12 09:27:26,234 | INFO | User entered command: finish
+2025-12-12 09:27:26,235 | INFO | Trip finished | stopped=52.2s | moving=114.4s | fare=€7.91
+2025-12-12 09:27:26,237 | INFO | Saving trip: stopped=52.2s, moving=114.4s, fare=€7.91
+2025-12-12 09:28:10,121 | INFO | User entered command: exit
+2025-12-12 09:28:10,122 | INFO | Program exited by user
+2025-12-12 09:31:38,289 | INFO | Loading rates from rates.json
+2025-12-12 09:31:41,323 | INFO | User entered command: stat
+2025-12-12 09:31:41,323 | WARNING | Unknown command: stat
+2025-12-12 09:31:51,440 | INFO | User entered command: start
+2025-12-12 09:31:51,441 | INFO | Trip started.
+2025-12-12 09:32:00,843 | INFO | User entered command: move
+2025-12-12 09:32:00,843 | INFO | State changed from stopped to moving
+2025-12-12 09:32:06,617 | INFO | User entered command: stop
+2025-12-12 09:32:06,618 | INFO | State changed from moving to stopped
+2025-12-12 09:32:10,633 | INFO | User entered command: rates
+2025-12-12 09:32:10,633 | INFO | Viewing or updating rates
+2025-12-12 09:32:13,731 | INFO | Saving updated rates into JSON file: {'stopped': 0.02, 'moving': 0.06}
+2025-12-12 09:32:19,658 | INFO | User entered command: move
+2025-12-12 09:32:19,658 | INFO | State changed from stopped to moving
+2025-12-12 09:32:23,617 | INFO | User entered command: show
+2025-12-12 09:32:23,618 | INFO | Showing partial fare: €1.03
+2025-12-12 09:33:19,832 | INFO | User entered command: stop
+2025-12-12 09:33:19,832 | INFO | State changed from moving to stopped
+2025-12-12 09:33:25,596 | INFO | User entered command: finish
+2025-12-12 09:33:25,596 | INFO | Trip finished | stopped=28.2s | moving=65.9s | fare=€4.52
+2025-12-12 09:33:25,598 | INFO | Saving trip: stopped=28.2s, moving=65.9s, fare=€4.52
+2025-12-12 09:34:26,972 | INFO | User entered command: exit
+2025-12-12 09:34:26,972 | INFO | Program exited by user

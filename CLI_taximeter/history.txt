@@ -8,3 +8,5 @@ Thu Dec  4 12:10:20 2025 | Stopped: 3.0s | Moving: 7.9s | Total: €0.94
 Wed Dec 10 09:09:24 2025 | Stopped: 3.2s | Moving: 44.1s | Total: €2.71
 Wed Dec 10 09:09:58 2025 | Stopped: 1.7s | Moving: 27.8s | Total: €1.70
 Thu Dec 11 10:25:10 2025 | Stopped: 8.7s | Moving: 31.1s | Total: €2.04
+Fri Dec 12 09:27:26 2025 | Stopped: 52.2s | Moving: 114.4s | Total: €7.91
+Fri Dec 12 09:33:25 2025 | Stopped: 28.2s | Moving: 65.9s | Total: €4.52
