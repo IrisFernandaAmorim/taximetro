@@ -10,13 +10,7 @@ logging.basicConfig(
     filename="taximeter.log",        # Save logs in this file
     filemode="a",
 )
-
-# Also print logs to console
-#console = logging.StreamHandler()
-#console.setLevel(logging.INFO)
-#logging.getLogger().addHandler(console)
 # ------------------------------------------------------
-
 
 # --------------- DEFAULT CONFIGURATION ----------------
 DEFAULT_RATES = {
