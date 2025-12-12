@@ -70,7 +70,7 @@ La interfaz gráfica permite:
 - Ajustar tarifas desde la barra lateral.  
 - Guardar viajes automáticamente en `history.txt`.  
 - Leer el historial desde la propia aplicación.  
-- Registrar eventos en taximeter_gui.log.
+- Registrar eventos en `taximeter_gui.log`.
 
 
 ## 📦 Archivos importantes
@@ -90,8 +90,8 @@ La interfaz gráfica permite:
 
 El sistema calcula el precio total mediante dos cronómetros:
 
-- **⏱️ Tiempo Parado** → tarifa baja (€/s)  
-- **🚕 Tiempo en Movimiento** → tarifa alta (€/s)
+- **Tiempo Parado** → tarifa baja (€/s)  
+- **Tiempo en Movimiento** → tarifa alta (€/s)
 
 Cada vez que el estado cambia, se calcula el tiempo transcurrido desde la última marca y se suma al contador correspondiente.
 
